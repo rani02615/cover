@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ext.js" language="javascript"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Creating Menu Tabs & Logo at Top Using HTML -->
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Work</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Testimonial</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <!-- Creating Banner Layout in HTML -->
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br> <span>Rani Kumari</span></h2>
+            <h3>I'm a Full Stack Developer.</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+    </section>
+
+    <!-- Creating About Me Layout in HTML -->
+    <section class="about" id="about">
+        <div class="heading">
+            <p>Get to Know me</p>
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="w50">
+                <img src="images/myPic2.jpg" alt="" class="proPic">
+            </div>
+            <div class="contentBx w50">
+                <h3>Who am i?</h3>
+                <h2>I'm <b>Rani Kumari</b>, a Full Stack Developer</h2>
+                <p>I Enjoy and feel good while working in this field , during making projects so many errors came some are easily resolved and few take time to resolve it. During  searching problems came to know many new things practically which were previously just learnt ,on doing this that steps we will get that result .After successfull completion of project we know lots of things which develop confidence in herself or ready to move to make another level of project.</p><br>
+                <p>I am  from Patna , INDIA and i have done training of Full Stack Developer under She Arise Program which organised by Nasscom and Altran .Here,learn new concept like JDBC,JSP,Servlet and many more things.</p>
+                <div class="heading bottom">
+                    <a href="images/resume.pdf" class="btn round">Download CV</a>
+                    <div class="bt">
+                        <b>Name:</b> Rani Kumari<br>
+                        <b>Age:</b> 25
+                    </div>
+                    <div class="bt">
+                        <b>Email:</b> rani02615@gmail.com<br>
+                        <b>Location:</b> INDIA
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Services Layout in HTML -->
+    <section class="services" id="services">
+        <div class="heading white">
+            <h2>Our Services</h2>
+            <p>courses which i learnt during my learning</p>
+        </div>
+        <div class="content">
+            <div class="servicesBx">
+                <i class="fa fa-css3 fa-4x"></i>
+                <h3>JAVA</h3> 
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-wordpress fa-4x"></i>
+                <h3>PYTHON</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-drupal fa-4x"></i>
+                <h3>DATA STRUCTURE</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-joomla fa-4x"></i>
+                <h3>SQL</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-android fa-4x"></i>
+                <h3>Hibernate</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="servicesBx">
+                <i class="fa fa-cart-arrow-down fa-4x"></i>
+                <h3>Helping Hand Project</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Work Layout in HTML -->
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>My Latest Achievements</h2>
+            <p>Showcasing some of my <b>achievements</b></p>
+        </div>
+        <div class="content">
+            <div class="workBx">
+                    <img src="images/jsCertificate.jpg" alt="">
+                    <p>Javascript Complete Real time </p>
+                </a>
+            </div>
+            <div class="workBx">
+                    <img src="images/scalaCertificate.jpg" alt="">
+                    <p>Scala is a general-purpose, high-level, multi-paradigm programming language.</p>
+                </a>
+            </div>
+            <div class="workBx">
+                    <img src="images/chatbotsCertificate.jpg" alt="">
+                    <p>IBMDeveloperSkillsNetwork-CB0103EN-Certificate-_-Open-P-Tech-Skills-Network</p>
+                </a>
+            </div>
+            <div class="workBx">
+                <a href="https://www.sololearn.com/certificates/course/en/20907883/1060/landscape/png" target="_blank">
+                    <img src="images/sqlCertificate.jpg" alt="">
+                    <p>Structured Query Language or SQL is a standard Database language </p>
+                </a>
+            </div>
+            <div class="workBx">
+                    <img src="images/gitCertificate.jpg" alt="">
+                    <p>Git is a distributed version control system</p>
+                </a>
+            </div>
+            <div class="workBx">
+                    <img src="images/javaCertificate.jpg" alt="">
+                    <p>Java is Object Oriented</p>
+                </a>
+            </div>
+            <div class="heading">
+                <a href="https://drive.google.com/drive/folders/1gzCCVc7clavr7W2-htLS2CP5l25oWoGP?usp=sharing" target="_blank" class="btn" style="color:#fff;">View All My Certificates</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Testimonial Layout in HTML -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading white">
+            <h2>Testimonial</h2>
+            <p>What my friends think about me</p>
+        </div>
+        <div class="content">
+            <div class="testimonialBx">
+                <p>Rani did an excellent job during your learning phase,do practcing as much as you can , enhance your knowledge to go ahead, being open to accept challenges or ready to work hard. she worked with us the entire way. Highly recommended.</p>
+                <h3>Manisha Roy<br>Web Developer</h3>
+            </div>
+            <div class="testimonialBx">
+                <p>I've been Searching for a good Portfolio Website done on html & css. This is definitely the one simple about myself with Responsive Design.  Thanks Rani</p><h3>Rohan <br>Web Designer</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Contact Layout in HTML -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <p>Feel free to contact me anytimes</p>
+            <h2>Get in Touch</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <p>Always available for work if the right opportunity<br> comes along, Feel free to contact me!</p>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>Vipul-World,<br>Sector-48,<br>Gurgaon,<br>Haryana</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone no :</h3>
+                            <p>9891126372</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email Address</h3>
+                            <p>rani02615@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h3>Social Connect</h3>
+                    <div class="boxSocial">
+                        <div class="icon">
+                            <a href="https://www.facebook.com" target="_blank">
+                                <i class="fa fa-facebook-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.twitter.com" target="_blank">
+                                <i class="fa fa-twitter-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/" target="_blank">
+                                <i class="fa fa-linkedin-square"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://www.instagram.com/?hl=en" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" name="">
+                    <input type="email" placeholder="Email" name="">
+                    <textarea name="" rows="6" id="" placeholder="Your Message"></textarea>
+                    <input type="submit" value="Send Message" name="">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creating Footer Layout in HTML -->
+    <footer class="copyright">
+        <p>&copy; 2021, Yourwebsite.com, Allrights reserved</p>
+    </footer>
+</body>
+</html>

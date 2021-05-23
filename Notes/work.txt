@@ -1,0 +1,9 @@
+Inside .workBox para content :
+
+Javascript Complete Real time
+Scala is a general-purpose, high-level, multi-paradigm programming language
+IBMDeveloperSkillsNetwork-CB0103EN-Certificate-_-Open-P-Tech-Skills-Network
+Structured Query Language or SQL is a standard Database language 
+Git is a distributed version control system
+Java is Object Oriented
+

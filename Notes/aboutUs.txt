@@ -1,0 +1,14 @@
+Get to Know me
+About Me
+Who am i? 
+
+I'm Rani Kumari, a Full Stack Developer.
+I Enjoy and feel good while working in this field , during making projects so many errors came some are easily resolved and few take time to resolve it. During  searching problems came to know many new things practically which were previously just learnt ,on doing this that steps we will get that result .After successfull completion of project we know lots of things which develop confidence in herself or ready to move to make another level of project.
+I am  from Patna , INDIA and i have done training of Full Stack Developer under She Arise Program which organised by Nasscom and Altran .Here,learn new concept like JDBC,JSP,Servlet and many more things.
+                
+Download CV
+
+Name:Rani Kumari
+Age:25
+Email: rani02615@gmail.com
+Location:INDIA
